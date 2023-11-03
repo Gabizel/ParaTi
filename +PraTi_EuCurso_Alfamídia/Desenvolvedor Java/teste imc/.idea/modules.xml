@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Orientacao a objetos/Orientacao a objetos.iml" filepath="$PROJECT_DIR$/../Orientacao a objetos/Orientacao a objetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../teste arrays for switch/teste arrays for switch.iml" filepath="$PROJECT_DIR$/../teste arrays for switch/teste arrays for switch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teste imc.iml" filepath="$PROJECT_DIR$/teste imc.iml" />
+    </modules>
+  </component>
+</project>

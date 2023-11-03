@@ -1,0 +1,48 @@
+<meta charset="UTF-8">
+
+<script>
+
+let entrada = "";
+let acumulador = parseFloat(prompt("Digite um número"));
+let calc = ""
+
+while(calc != "s"){
+    
+    calc = prompt("Escolha entre (+, -, *, / ou **). Ou 's' pra sair");
+    if (calc == "s"){
+
+        break;
+    }
+    entrada = parseFloat(prompt("Adicione um número."));
+    
+    if (calc == "+") { 
+
+        acumulador += entrada; 
+        alert(acumulador);
+    } 
+    else if (calc == "-") {
+
+        acumulador -= entrada; 
+        alert(acumulador);
+    }
+    else if (calc == "*") {
+      
+        acumulador *= entrada; 
+        alert(acumulador);
+    }
+    else if (calc == "/") {
+        acumulador /= entrada; 
+        alert(acumulador);
+    }
+    else if (calc == "**") {
+        acumulador **= entrada; 
+        alert(acumulador);
+    }
+}
+alert(acumulador);
+
+
+
+
+
+</script>

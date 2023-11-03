@@ -1,0 +1,36 @@
+<meta charset="UTF-8">
+
+<script>
+
+let n3 = prompt("Escolha entre ('+', '-', '*', '/', '**') ou 's' para sair.");
+
+while(n3 != "s"){
+    
+    let n1 = parseFloat(prompt("Digite o primeiro número."));
+    let n2 = parseFloat(prompt("Digite o segundo número."));
+    if (n3 == "+"){
+
+        alert(n1 + n2);
+    } 
+    else if (n3 == "-"){
+
+        alert(n1 - n3);
+    }
+    else if (n3 == "*"){
+
+        alert(n1 * n2);
+    }
+    else if (n3 == "/"){
+
+        alert(n1 / n2);
+    } else if (n3 == "**"){
+
+        alert(n1 ** n2);
+    } else {
+        alert("inválido.");
+    }
+    n3 = prompt("Escolha entre ('+', '-', '*', '/', '**') ou 's' para sair.");
+}
+
+
+</script>
